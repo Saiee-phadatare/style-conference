@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #293f50;
+    color:  #888;
+    font: 100 16px / 22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-section,
+.nav-info{
+    padding: 0 12rem 0;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+
+.logo a:hover{
+    color: #648880;
+}
+
+.tagline{
+    margin:  0px 0 22px 0;
+    padding-top: 66px;
+    text-align: right;
+    color: #648880;
+}
+
+/*--------------------------------------------------------------------Nav---------------------------------------------------------------*/
+
+nav{
+    text-align: right;
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin: 0 10px;  
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.nav-bar li a:hover{
+    color: #648880;
+}
+
+.nav-info{
+    margin-top: 5.5rem;
+    text-align: center;
+}
+
+.nav-info h1{
+    font-size: 36px;
+}
+
+.nav-info p{
+    padding-top: 1rem;
+    font-size: 24px;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    color: rgb(230, 226, 226);
+}
+
+.nav-info a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1.3rem 2.5rem 1.3rem;
+}
+
+.nav-info a:hover{
+    background: white;
+    color: #648880;
+}
+
+/*-------------------------------------------------------Home-info---------------------------------------------------------------*/
+
+.home-info{
+    padding: 4rem 12rem 0;
+    margin-top: 6rem;
+    min-height: 76vh;
+    min-width: 100%;
+    background: white;
+    display: flex;
+    gap: 1.5rem;
+    color: #83a59e;
+}
+
+.home-page{
+    width: 300px;
+}
+
+.home-page h2{
+    font-size: small;
+    text-transform: uppercase;
+    opacity: 60%;
+}
+
+.home-page img{
+    margin: 1rem 0 1rem;
+    width: 280px;
+    height: 200px;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.home-page a{
+    text-decoration: none;
+    color: #83a59e;
+    font-size: 20px;
+}
+
+.home-page a:hover{
+    color: #9ab6b0;
+}
+
+.home-page p{
+    padding-top: 1rem;
+}
+
+/*-------------------------------------------------Footer-------------------------------------------------------*/
+
+
+.footer{
+    padding: 3rem 12rem 0;
+    min-height: 17vh;
+    display: flex; 
+    gap: 27rem;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.footer .footer-nav li{
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.footer .footer-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer .footer-nav li a:hover{
+    color: #888;
+}
+
+
+/*-------------------------------------------------HEADING----------------------------------------------------*/
+
+
+.heading{
+    margin-top: 2.5rem;
+    padding: 3rem 2.5rem 0;
+    text-align: center;
+    background: linear-gradient(to right, #a1d3b0, #f5eec7);
+    color: #648880;
+}
+
+.heading h1{
+    font-size: 36px;
+}
+
+.heading p{
+    padding: 2rem 12rem 0; 
+    font-size: 20px;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    color: gray;
+}
+
+
+/*-------------------------------------------------REGISTER---------------------------------------------------*/
+
+.register{
+    padding: 4.5rem 12rem 0;
+    min-height: 80vh;
+    min-width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    color: #888;
+    background: white;
+}
+
+.register .info h2{
+    color: #648880;
+    padding-bottom: .5rem;
+}
+
+.info p{
+    padding: 1rem 0rem 1.5rem;
+    width: 600px;
+}
+
+.info h4{
+    font-size: 20px;
+}
+
+.info ul{
+    padding: 1.5rem;
+}
+
+.form label{
+    font-size: 17px;
+}
+
+.form input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: .5rem;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.form textarea{
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+
+}
+
+.form button{
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+}
+
+
+/*-------------------------------------------------SPEAKERS----------------------------------------------------*/
+.speakers-section{
+    padding: 4rem 12rem 3rem;
+    min-height: 100vh;
+    min-width: 100%;
+    background: white;
+    color: #83a59e;
+}
+
+.speakers{
+    margin-top: 5rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.speakers-info h6{
+    text-transform: uppercase;
+    padding: .5rem;
+    padding-left: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.speakers-info p{
+    padding: 1rem;
+    padding-left: 0;
+    width: 610px;
+    color: #888;
+}
+
+.speakers a{
+    color: #648880;
+}
+
+.photo{
+    margin-top: 5rem;
+    border: 1px solid #dfe2e5;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.photo ul{
+    list-style: none;
+}
+
+.photo img{
+    border-radius: 50%;
+    height: 130px;
+    margin: -67px 0 22px 0;
+    vertical-align: top;
+}
+
+.photo a{
+    text-decoration: none;
+    color: #648880;
+}
+
+.speakers a:hover{
+    color: #8caaa4;
+}
+
+
+/*---------------------------------------------SCHEDULE------------------------------------------------------*/
+
+.schedule{
+    padding: 0rem 9rem 2rem;
+    min-height: 100vh;
+    min-width: 100%;
+    background: white;
+    color: #83a59e;
+}
+
+table{
+    padding-top: 3rem;
+}
+
+thead th{
+    color: #648880;
+    font-size: 24px;
+    padding-left: 3rem;
+}
+
+thead td{
+    padding: 1.5rem;
+    padding-left: 1rem;
+}
+
+tbody th{
+    padding: 1.5rem;
+    float: right;
+    font-weight: 100;
+}
+
+tbody td{
+    padding: 1.5rem;
+    width: 400px;
+    border-top: 1px solid #dfe2e5;
+    
+}
+
+.schedule h3{
+    font-weight: 100;
+    color: #648880;
+}
+
+.schedule a{
+    text-decoration: none;
+    color: #888;
+}
+
+.schedule a:hover{
+    color: #b4b2b2;
+}
+
+/*---------------------------------------------------VENU-------------------------------------------------------*/
+
+.Venu-section{
+    padding: 4rem 12rem 3rem;
+    min-width: 100%;
+    background: white;
+    color: #83a59e;
+}
+
+.venu{
+    display: flex;
+    gap: 2rem;  
+    margin-top: 3rem;  
+    padding: .3rem;
+}
+
+.venu-info{
+    width: 300px;
+}
+
+.venu-info p{
+    padding: 1rem;
+    padding-left: 0;
+    width: 150px;
+}
+
+.venu-info a{
+    color: #648880;
+}
+
+.venu-info li{
+    list-style: none;
+}
+
